@@ -41,8 +41,12 @@ In this project we used [MTA Turnstile Data](http://web.mta.info/developers/turn
 
 ## 5. Data Visualization
 
-We grouped the dataset by STATION_UNIT_SCP and calculated the sum of its TOTAL_TRAFFIC column (total of Entries and Exits).We plotted a bar chart using Matplottlib representing the top five crowded stations in NYC on Aug and May 2019.
+We grouped the dataset by STATION_UNIT_SCP and calculated the sum of its TOTAL_TRAFFIC column (total of Entries and Exits).We plotted a bar chart using Matplottlib representing the top five crowded stations in NYC on Aug and May 2019 depending on the avrage of TOTAL_TRAFFIC.
 
+The following figere shows the top five Stations based on Average traffic in May
+![Image test]({{ site.url }}/images/project1-5.png)
+The following figere shows the top five Stations based on Average traffic in Aug
+![Image test]({{ site.url }}/images/project1-6.png)
 
 ![Image test]({{ site.url }}/images/project1-3.png)
 
