@@ -38,6 +38,17 @@ In this project we used [MTA Turnstile Data](http://web.mta.info/developers/turn
 * LINE NAME, DIVISION, DESC , C/A columns were droped because it's not needed in our goal.
 
 
+
+## Data Visualization
+![Image test]({{ site.url }}/images/project1-3.png)
+
+![Image test]({{ site.url }}/images/project1-2.png)
+
+## Results
+
+
+
+
 ## Resource Description
 For more details please viste [Project Resource](https://github.com/thisismetis/sa19_ds1/tree/master/student_work/project1/team4).
 * Subway folder that contain the code file.
