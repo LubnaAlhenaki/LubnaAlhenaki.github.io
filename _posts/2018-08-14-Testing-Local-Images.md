@@ -29,7 +29,7 @@ In this project we used [MTA Turnstile Data](http://web.mta.info/developers/turn
 #### 4.1. Data cleansing
 * Removing white spaces in columns’ names.
 * Handling Entries and Exits accumulation process
-* Dealing with missing and negative val
+* Dealing with missing and negative value
 
 
 #### 4.2. Feature Engineering and Selection
@@ -40,6 +40,10 @@ In this project we used [MTA Turnstile Data](http://web.mta.info/developers/turn
 
 
 ## 5. Data Visualization
+
+We grouped the dataset by STATION_UNIT_SCP and calculated the sum of its TOTAL_TRAFFIC column (total of Entries and Exits).We plotted a bar chart using Matplottlib representing the top five crowded stations in NYC on Aug and May 2019.
+
+
 ![Image test]({{ site.url }}/images/project1-3.png)
 
 ![Image test]({{ site.url }}/images/project1-2.png)
