@@ -1,7 +1,11 @@
 ---
 layout: page
-title: Archive
+title: Projects
 ---
+
+<p class="message"> 
+ Hey there! This page includes all projects done in the Metis Data Science bootcamp.
+</p>
 
 ## Blog Posts
 
