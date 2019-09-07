@@ -2,7 +2,7 @@
 permalink:           pretty
 
 # Setup
-title:               Z.W. Miller
+title:               Lubna Alhenaki
 tagline:             A Moderately Okay Data Science Blog
 url:                 http://LubnaAlhenaki.github.io
 paginate:            2
@@ -17,9 +17,9 @@ sass:
 
 # About/contact
 author:
-  name:              Zach Miller
-  url:               https://twitter.com/zaglamir
-  email:             zach@thisismetis.com
+  name:              Lubna Alhenaki
+  url:               https://twitter.com/Lubna_sulieman
+  email:             lubna.henaki@gmail.com
 
 # Custom vars
 version:             2.0.0
