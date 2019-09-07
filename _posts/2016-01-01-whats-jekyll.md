@@ -3,4 +3,7 @@ layout: post
 title: Project3
 ---
 
-### Comming Soon
+
+<div class="message">
+ Comming Soon
+</div>
