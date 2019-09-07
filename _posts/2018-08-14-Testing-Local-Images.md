@@ -44,8 +44,11 @@ In this project we used [MTA Turnstile Data](http://web.mta.info/developers/turn
 We grouped the dataset by STATION_UNIT_SCP and calculated the sum of its TOTAL_TRAFFIC column (total of Entries and Exits).Next, We plotted a line and bar charts using Matplottlib representing the top five crowded STATION_UNIT_SCP in NYC on Aug and May 2019 depending on the avrage of TOTAL_TRAFFIC.
 
 The following figere shows the top five Stations based on Average traffic in May
+
 ![Image test]({{ site.url }}/images/project1-5.png)
+
 The following figere shows the top five Stations based on Average traffic in Aug
+
 ![Image test]({{ site.url }}/images/project1-6.png)
 
 The Figures below is a graph of avrage traffic per hours in weekends and weekdays. We concluded from the graph that rush hours in weekdays are the most crowded days unlike weekends.
@@ -56,7 +59,9 @@ The Figures below is a graph of avrage traffic per hours in weekends and weekday
 
 ## 6. Results
 
+After completing the analysis and visualization, we recommend distributing the teams on the stations mentioned above ( depending on the month) at rush hours weekdays and late night in weekends. 
 
+  
 
 
 ## 7. Resource Description
