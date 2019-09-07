@@ -26,13 +26,13 @@ In this project we used [MTA Turnstile Data](http://web.mta.info/developers/turn
 
 ## Data Understanding and Cleaning
 
-# 1. Data cleansing
+#### 1. Data cleansing
 * Removing white spaces in columns’ names.
 * Handling Entries and Exits accumulation process
 * Dealing with missing and negative val
 
 
-# 2. Feature Engineering and Selection
+#### 2. Feature Engineering and Selection
 * Date and Time columns was combined into one column named (DATE_TIME).Also,Station, Unit,Scp combined into (STATION_UNIT_SCP) column.
 * Hours, Months, Weekdays, and Weekends columns were created from Date and Time columns.
 * LINE NAME, DIVISION, DESC , C/A columns were droped because it's not needed in our goal.
