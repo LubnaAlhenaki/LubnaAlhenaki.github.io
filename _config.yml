@@ -3,9 +3,9 @@ permalink:           pretty
 
 # Setup
 title:               Lubna Alhenaki
-tagline:             A Blog about my journey into data science 
+tagline:             A Blog About my Journey into Data Science 
 url:                 http://LubnaAlhenaki.github.io
-paginate:            2
+paginate:            1
 baseurl:             ""
 
 # Assets
