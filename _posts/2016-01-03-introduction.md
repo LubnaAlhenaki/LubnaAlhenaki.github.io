@@ -1,13 +1,20 @@
 ---
 layout: post
-title: Project2 :New York Subways Traffic Analysis
+title: Project2 :Movie Scraping and Regression Model
 ---
 
 
 
 ## 1. Objectives
 
-WomenTechWomenYes (WTWY) is an international organizationthat aims to encourage more women to participate in the technology field. The organization hosts an annual gala at the beginning of summer in order to spread awareness towards their goal. With limited resources, they want to reach the maximum amount of people at the NYC subway stations to promote the gala and future events.
+The main objectives of this project are:
+
+1- Using BeautifulSoup to scrape web data (must have good knowledge in HTML)
+2- Using Statsmodels and Scikit-learn to build linear regression model
+3- Using power transformation to variables in order to create a better model
+4- Experiment between Lasso, Ridge, and Elastic Net to regularize the models (solve overfitting problem)
+5- Utilizing cross validation to build better model during sampling process
+
 
 
 
