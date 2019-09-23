@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Project2 :Movie Scraping and Regression Model
-date:               2017-12-01 23:22:00 +0000
-last_modified_at:   2019-03-25 8:30:00 +0000
+date:               2019-09-23 23:22:00 +0000
 ---
 
 
