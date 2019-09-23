@@ -88,6 +88,7 @@ After completing the analysis and visualization, using a linear regression model
 For more details please viste [Project Resource](https://github.com/LubnaAlhenaki/sa19_ds1/tree/master/student_work/project2/Lubna_Alhenaki). This repo contains the following:
 * Movie2018 that contain the code file.
 * Project-02 pdf file that describe the project in details.
+
 Also I recommended the following scientific paper
 * [The determinants of box office performance in the film industry revisited](https://pdfs.semanticscholar.org/c960/7aaa7746ec9735a19d0ab2e524e53d20ab7f.pdf)
 
