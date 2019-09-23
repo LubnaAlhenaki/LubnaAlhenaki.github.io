@@ -78,16 +78,17 @@ ElasticNet model: Validation R^2=0.281
 Test r^2= 0.298
 
 
-## 6. Results
+## 3. Results
 
-After completing the analysis and visualization, we recommend distributing the teams on the stations mentioned above ( depending on the month) at rush hours weekdays and late night in weekends. 
-
-  
+After completing the analysis and visualization, using a linear regression model, a month feature influence prediction of the domestic total gross.Also, the results of the model shown that there was a significant relationship between a other genre such as action and domestic total gross.For future work, other features will be selected and improve model r^2.
 
 
-## 7. Resource Description
-For more details please viste [Project Resource](https://github.com/thisismetis/sa19_ds1/tree/master/student_work/project1/team4). This repo contains the following:
-* Subway folder that contain the code file.
-* Project-01 pdf file that describe the project in details.
+
+## 4. Resource Description
+For more details please viste [Project Resource](https://github.com/LubnaAlhenaki/sa19_ds1/tree/master/student_work/project2/Lubna_Alhenaki). This repo contains the following:
+* Movie2018 that contain the code file.
+* Project-02 pdf file that describe the project in details.
+Also I recommended the following scientific paper
+* [The determinants of box office performance in the film industry revisited](https://pdfs.semanticscholar.org/c960/7aaa7746ec9735a19d0ab2e524e53d20ab7f.pdf)
 
 
