@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Project1 :New York Subways Traffic Analysis
+date:  2019-09-07 23:22:00 +0000
 ---
 
 
