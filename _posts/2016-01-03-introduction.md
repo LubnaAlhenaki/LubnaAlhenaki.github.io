@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Project2: Movie Scraping and Regression Analysis
+title: Project2 :New York Subways Traffic Analysis
 ---
+
+
 
 ## 1. Objectives
 
