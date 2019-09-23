@@ -11,10 +11,10 @@ title: Project2 :Movie Scraping and Regression Model
 
 In fact, the film industry is a significant player in the global economy.  In this project, I try to answer the question, which factors, if any, contribute to the success of films at the box office that will help business area.The major goal is to predict a domestic total gross value by using a linear regression model.The main objectives of this project are:
 
-* Using BeautifulSoup to scrape web data (must have good knowledge in HTML)
+* Using BeautifulSoup to scrape web data (must have a good knowledge in the HTML)
 * Using Statsmodels and Scikit-learn to build linear regression model
 * Using power transformation to variables in order to create a better model
-* Experiment between Lasso, Ridge, and Elastic Net to regularize the models (solve overfitting problem)
+* Experiment between Lasso, Ridge, and Elastic Net to regularize the models (solve the overfitting problem)
 * Utilizing cross validation to build better model during sampling process
 
 
@@ -28,11 +28,14 @@ The following figure shows the workflow of Predicting Movie Domestic Total Gross
 ### 2.1 Scraping the Data
 The data scraping was one of the most time consuming parts of this project because it’s difficult to navigate through the nested tables (the HTML). However, BeautifulSoup made it quite simple to grab the HTML and parse through it.
 
-In this project I scraped from [boxofficemojo](https://www.boxofficemojo.com), I decided to start by scraping top of all  movies relased in 2018 so that I could build out my model. When I looked at the [page](https://www.boxofficemojo.com/yearly/chart/?yr=2018&p=.htm) that includes all movies that released on 2018, as a first step, I noticed that I need to collect all linkes of all movies then  go into each movie to collect the needed information. A lot of [interesting information](https://www.boxofficemojo.com/movies/?id=grinch2017.htm) was captured in the table at the top of each movie page. The following figure is a smaple of strategy of scraping movies.
+In this project I scraped from [boxofficemojo](https://www.boxofficemojo.com), I decided to start by scraping top of all  movies relased in 2018 so that I could build out my model. When I looked at the [page](https://www.boxofficemojo.com/yearly/chart/?yr=2018&p=.htm) that includes all movies that released on 2018, as a first step, I noticed that I need to collect all linkes of all movies then  go into each movie to collect the needed information. A lot of [interesting information](https://www.boxofficemojo.com/movies/?id=grinch2017.htm) was captured in the table at the top of each movie page. The following figure is a smaple of the strategy of scraping movies.
 
 ![Image test]({{ site.url }}/images/project2-2.png)
 
-At the end of this step, 879 movies and 8 features were collected then I saved all these information into CSV file. The featuers are Title, Domestic_Total_Gross, Distributor, Release_Date,Runtime	Production_Budget, MPAA_Rating, and Genre
+At the end of this step, 879 movies and 8 features were collected.After that I saved all these information into CSV file.
+The featuers are Title, Domestic_Total_Gross, Distributor, Release_Date,Runtime	Production_Budget, MPAA_Rating, and Genre.The following figure is a smaple of Movies dataset:
+
+![Image test]({{ site.url }}/images/project2-3.png)
 
 
 ### 2.2 Data Cleaning and Feature Engineering
@@ -49,22 +52,31 @@ The next focus was to clean the data to build a better model. I started by impor
 Regarding dealing with categorical data I used One-Hot encoding with Genre feature and Ordinal with MAPP Rating feature
 
 ### 2.3 Model Building 
+The following sections describe in details model building
 
-We grouped the dataset by STATION_UNIT_SCP and calculated the sum of its TOTAL_TRAFFIC column (total of Entries and Exits).Next, We plotted a line and bar charts using Matplottlib representing the top five crowded STATION_UNIT_SCP in NYC on Aug and May 2019 depending on the avrage of TOTAL_TRAFFIC.
+#### 2.3.1 Pre-Model Building 
 
-The following figere shows the top five Stations based on Average traffic in May
+After data cleaning steps completed,then I start to building the linear regression models.Generally, before starting building the model we should check many things. First, I create an initial plot of Domestic_Total_Gross to look to the distribution. From the following figere the initial plot looks like normal distribution so there is no need to do the log transformation
 
-![Image test]({{ site.url }}/images/project1-5.png)
+![Image test]({{ site.url }}/images/project2-4.png)
 
-The following figere shows the top five Stations based on Average traffic in Aug
+I also created a residual plot to ensure if the residuals were more or less random.It's clear from the following figere the residual is ramdom error
 
-![Image test]({{ site.url }}/images/project1-6.png)
+![Image test]({{ site.url }}/images/project2-5.png)
 
-The Figures below is a graph of avrage traffic per hours in weekends and weekdays. We concluded from the graph that rush hours in weekdays are the most crowded days unlike weekends.
+To check the binary correlation between featuers I build a correlation matrix
 
-![Image test]({{ site.url }}/images/project1-3.png)
+![Image test]({{ site.url }}/images/project2-6.png)
 
-![Image test]({{ site.url }}/images/project1-2.png)
+#### 2.3.2 Model Selection Process
+
+* Stage 1 :
+BaseLine model: Validation R^2= 0.119
+* Stage 2:
+ElasticNet model: Validation R^2=0.281
+* Final Model : 
+Test r^2= 0.298
+
 
 ## 6. Results
 
