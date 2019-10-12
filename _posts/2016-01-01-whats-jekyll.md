@@ -16,7 +16,7 @@ In fact, marketing spending in the banking industry is massive, meaning that it 
 
 
 ## 2. Workflow
-The following figure shows the workflow of Predicting Movie Domestic Total Gross 
+The following figure shows the workflow of Predicting customers' response to its telemarketing campaign 
 ![Image test]({{ site.url }}/images/project3-1.png)
 
 
@@ -46,9 +46,7 @@ After data cleaning steps completed,then I start to exploring bank marketing dat
 
 The following figures describe the dataset of bank marketing 
 
-#### 2.3.1 Pre-Model Building 
 
-After data cleaning steps completed,then I start to building the linear regression models.Generally, before starting building the model we should check many things. First, I create an initial plot of Domestic_Total_Gross to look to the distribution. From the following figere the initial plot looks like normal distribution so there is no need to do the log transformation
 
 ![Image test]({{ site.url }}/images/project3-3.png)
 
@@ -62,21 +60,21 @@ After data cleaning steps completed,then I start to building the linear regressi
 
 ![Image test]({{ site.url }}/images/project3-6.png)
 
-#### 2.3.2 Model Building
+### 2.4 Model Building
 
 ![Image test]({{ site.url }}/images/project3-7.png)
 
 
-## 3. Results
+## 2.5 Results
 
 ![Image test]({{ site.url }}/images/project3-8.png)
 
 
 ## 4. Resource Description
-For more details please viste [Project Resource](https://github.com/LubnaAlhenaki/sa19_ds1/tree/master/student_work/project2/Lubna_Alhenaki). This repo contains the following:
-* Movie2018 that contain the code file.
-* Project-02 pdf file that describe the project in details.
+For more details please viste [Project-3 Resource](https://github.com/LubnaAlhenaki/sa1_ds1_submissions/tree/master/projects/project03). This repo contains the following:
+* Python code file.
+* Project-3 pdf file that describe the project in details.
 
-Also I recommended [The determinants of box office performance in the film industry revisited](https://pdfs.semanticscholar.org/c960/7aaa7746ec9735a19d0ab2e524e53d20ab7f.pdf) scientific paper
+Thanks for reading!
 
 
