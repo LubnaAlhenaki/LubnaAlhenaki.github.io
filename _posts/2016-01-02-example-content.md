@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Project4 : Arabic Fatwa ChatBot
-date:  2019-11-20 23:22:00 +0000
+title: Project4 :Arabic Fatwa ChatBot
+date:               2019-11-20 23:22:00 +0000
 ---
 
 # Arabic Fatwa ChatBot
